@@ -108,6 +108,28 @@
 			font-size: 20px;
 			color: #050505;
 		}
+		&__wrapper {
+			display: flex;
+			width: calc(200% + 40px);
+		}
+		&__content {
+			width: 50%;
+			margin-right: 0px;
+			transform: translateX(-100%);
+			&_active {
+				transform: translateX(0%);
+				margin-right: 20px;
+			}
+		}
+		&__list {
+			width: 50%;
+			margin-left: 20px;
+			transform: translateX(0%);
+			&_active {
+				transform: translateX(-100%);
+				margin-right: 0px;
+			}
+		}
 
 	}
 }
