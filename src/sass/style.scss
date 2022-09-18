@@ -10,6 +10,7 @@
 	margin: 0 auto;
 }
 
+
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
@@ -23,3 +24,5 @@
 @import 'blocks/footer';
 @import 'blocks/modal';
 @import 'blocks/pageup';
+
+@import 'base/mobile';

@@ -27,4 +27,7 @@
 		margin: 0 auto;
 		}
 	}
+	[data-action="stop"] {
+		display: none;
+	}
 }

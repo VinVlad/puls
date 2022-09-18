@@ -25,6 +25,9 @@
 		margin: 0 5px;
 		cursor: pointer;
 		transition: 0.5s all;
+		&_mobile {
+			display: none;
+		}
 		&:hover {
 			box-shadow: 3px 3px 20px $main-color;
 			border: none;
