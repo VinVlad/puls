@@ -1,3 +1,20 @@
+@media (max-width: 1200px) {
+    .carousel { 
+        .tns-item { 
+            img {
+                width: 60%;
+            }
+        }
+    }
+    .carousel .next {
+        right: 20px;
+    }
+    .carousel .prev {
+        left: 30px;
+    }
+    
+}
+
 @media (max-width: 991px)  {
     .container {
         margin: 0 20px 0 20px;
